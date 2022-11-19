@@ -13,7 +13,7 @@ var nullNameToUpperCase = nullName?.toUpperCase() // 만약 nullName이 null이�
 
 ```kotlin
 val name : String? = null
-val hello = "Hello " + (name? : "Kotiln") // -> Hello Kotlin
+val hello = "Hello "   (name? : "Kotiln") // -> Hello Kotlin
 ```
 
 만약 null일 경우 콜론(:) 뒤에 있는 Expression이 적용

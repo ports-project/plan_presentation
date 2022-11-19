@@ -11,19 +11,19 @@ for (n in num) {
 
 var sum = 0
 
-for (i in 1..10) sum += i
+for (i in 1..10) sum  = i
 println(sum) // -> 55
 
 sum = 0
-for (i in 1..10 step 2) sum += i
+for (i in 1..10 step 2) sum  = i
 println(sum) // -> 25 
 
 sum = 0
-for(i in 10 downTo 1) sum += i
+for(i in 10 downTo 1) sum  = i
 println(sum) // -> 55
 
 sum = 0
-for(i in 1 until 10) sum += i
+for(i in 1 until 10) sum  = i
 println(sum) // -> 45
 
 for((index, n) in num.withIndex()) {
@@ -36,7 +36,7 @@ for((index, n) in num.withIndex()) {
 ```kotlin
 var index = 0
 while(index < 10) {
-	println(index++)
+	println(index  )
 }
 // -> 0 1 2 3 4 5 6 7 8 9
 ```
